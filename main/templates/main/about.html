@@ -1,0 +1,330 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}About Us | Sunshine Tots Daycare | Bamburi, Mombasa{% endblock %}
+{% block meta_description %}Learn about Sunshine Tots Daycare's story, mission, and dedicated team in Bamburi, Mombasa, Kenya. Read parent testimonials and discover why families trust us.{% endblock %}
+
+{% block content %}
+
+<!-- ── PAGE HERO ─────────────────────────────────── -->
+<section class="page-hero">
+  <div class="container position-relative" style="z-index:1;">
+    <div data-aos="fade-down">
+      <div class="section-label">💛 Our Story</div>
+      <h1 class="section-title mt-3" style="font-size:clamp(2rem,5vw,3.2rem);">
+        About <span>Sunshine Tots</span>
+      </h1>
+      <p class="section-subtitle mx-auto" style="max-width:600px;">
+        8 years of nurturing little hearts with love, laughter, and learning in the heart of Bamburi, Mombasa.
+      </p>
+    </div>
+    <div class="breadcrumb-custom mt-4" data-aos="fade-up" data-aos-delay="200">
+      <a href="/">🏠 Home</a>
+      <span>›</span>
+      <span style="color:var(--pink-main);">About Us</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── OUR STORY ─────────────────────────────────── -->
+<section class="about-story">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6" data-aos="fade-right">
+        <img src="{% static 'main/images/about_team.png' %}" alt="Sunshine Tots Caring Team" class="about-story-img">
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <span class="section-label">📖 Our Journey</span>
+        <h2 class="section-title mt-2">Founded with <span>Love</span> in 2017</h2>
+        <p style="color:var(--gray); line-height:1.9; font-weight:600; margin-bottom:20px;">
+          Sunshine Tots was born from a simple dream — to create a daycare where every child in Bamburi, Mombasa 
+          could feel as loved and cherished as they do at home. Our founder, <strong>Mama Amina Kamau</strong>, 
+          a certified Early Childhood Development educator with over 15 years of experience, opened our doors in 
+          January 2017 with just 12 children and a heart full of passion.
+        </p>
+        <p style="color:var(--gray); line-height:1.9; font-weight:600; margin-bottom:30px;">
+          Today, we serve over 250 families across Mombasa County, and our team of 15+ dedicated caregivers continues 
+          to grow. Every sunrise brings new adventures, new discoveries, and new smiles in our colorful world of learning.
+          We are proudly licensed by the <strong>Kenya Ministry of Education</strong> and certified by the 
+          <strong>National Council for Persons with Disabilities</strong> as an inclusive daycare.
+        </p>
+
+        <div class="row g-3">
+          <div class="col-6">
+            <div class="stat-item" style="text-align:center; background:white; border-radius:16px; padding:18px; box-shadow:var(--shadow-sm); border:2px solid var(--pink-light);">
+              <div class="stat-number" style="font-size:2rem;">🏆</div>
+              <div style="font-weight:800; color:var(--dark);">Best Daycare</div>
+              <div style="font-size:0.8rem; color:var(--gray);">Mombasa 2023 & 2024</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="stat-item" style="text-align:center; background:white; border-radius:16px; padding:18px; box-shadow:var(--shadow-sm); border:2px solid var(--blue-light);">
+              <div class="stat-number" style="font-size:2rem;">⭐</div>
+              <div style="font-weight:800; color:var(--dark);">5-Star Rated</div>
+              <div style="font-size:0.8rem; color:var(--gray);">Google & Facebook</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── MISSION & VISION ─────────────────────────── -->
+<section style="padding:80px 0; background:linear-gradient(135deg, var(--pink-pale), var(--blue-pale));">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <span class="section-label">🎯 Our Purpose</span>
+      <h2 class="section-title mt-2">Mission, Vision & <span>Values</span></h2>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="mission-vision-card mission-card h-100 text-center">
+          <span class="mission-vision-icon">🎯</span>
+          <h3 style="color:var(--pink-deep); margin-bottom:15px;">Our Mission</h3>
+          <p style="color:var(--gray); line-height:1.8; font-weight:600;">
+            To provide a safe, stimulating, and loving environment where every child thrives emotionally, 
+            cognitively, and physically — setting the foundation for a lifetime of success.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
+        <div class="mission-vision-card vision-card h-100 text-center">
+          <span class="mission-vision-icon">🌟</span>
+          <h3 style="color:var(--blue-deep); margin-bottom:15px;">Our Vision</h3>
+          <p style="color:var(--gray); line-height:1.8; font-weight:600;">
+            To be the leading centre of excellence in early childhood development in Mombasa County and 
+            across Kenya, shaping tomorrow's leaders through compassionate, high-quality care.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="mission-vision-card h-100 text-center"
+             style="background:linear-gradient(135deg,#f3e5f5,#e1bee7); border:2px solid var(--purple);">
+          <span class="mission-vision-icon">💎</span>
+          <h3 style="color:#7b1fa2; margin-bottom:15px;">Our Values</h3>
+          <ul style="list-style:none; padding:0; color:var(--gray); text-align:left; font-weight:600;">
+            <li>💖 Love & Compassion</li>
+            <li>🎓 Excellence in Learning</li>
+            <li>🤝 Community & Inclusion</li>
+            <li>🔒 Safety First Always</li>
+            <li>🌱 Holistic Development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TEAM SECTION ─────────────────────────────── -->
+<section class="team-section">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <span class="section-label">👨‍👩‍👧‍👦 Meet The Team</span>
+      <h2 class="section-title mt-2">Our <span>Amazing Caregivers</span></h2>
+      <p class="section-subtitle">Every member of our team is handpicked, background-checked, and ECD-certified.</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-4 col-6" data-aos="fade-up" data-aos-delay="0">
+        <div class="team-card">
+          <div class="team-avatar">👩🏾‍🏫</div>
+          <h5 class="team-name">Amina Kamau</h5>
+          <p class="team-role">Founder & Director</p>
+          <p class="team-bio">15+ years in ECD. Passionate about holistic child development.</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="team-card">
+          <div class="team-avatar">👩🏿‍🍳</div>
+          <h5 class="team-name">Grace Wanjiku</h5>
+          <p class="team-role">Lead Caregiver</p>
+          <p class="team-bio">Specializes in infant care with 8 years of experience.</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="team-card">
+          <div class="team-avatar">👨🏾‍🎨</div>
+          <h5 class="team-name">James Odhiambo</h5>
+          <p class="team-role">Art & Creativity Lead</p>
+          <p class="team-bio">Fine Arts graduate bringing creativity to every activity.</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="team-card">
+          <div class="team-avatar">👩🏾‍🎵</div>
+          <h5 class="team-name">Fatuma Said</h5>
+          <p class="team-role">Music & Dance Teacher</p>
+          <p class="team-bio">Certified music therapist making learning joyful through song.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Photo -->
+    <div class="text-center mt-5" data-aos="zoom-in">
+      <img src="{% static 'main/images/about_team.png' %}" 
+           alt="The full Sunshine Tots team" 
+           style="width:100%; max-width:800px; border-radius:24px; box-shadow:var(--shadow-lg); border:5px solid white;">
+      <p style="color:var(--gray); font-weight:600; margin-top:15px;">📸 The Sunshine Tots Family — Always Together, Always Growing!</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── CAROUSEL - HAPPY MOMENTS ─────────────────── -->
+<section style="padding:80px 0; background:white;">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <span class="section-label">🎠 Happy Moments</span>
+      <h2 class="section-title mt-2">Life in Our <span>Colourful Classrooms</span></h2>
+    </div>
+
+    <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000" data-aos="fade-up">
+      <div class="carousel-inner rounded-4 shadow-lg overflow-hidden" style="border:4px solid white;">
+        <div class="carousel-item active">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="{% static 'main/images/kids_activities.png' %}" class="d-block w-100" alt="Activities" style="height:350px; object-fit:cover;">
+            </div>
+            <div class="col-md-6 d-flex align-items-center" style="background:linear-gradient(135deg,var(--pink-pale),var(--blue-pale)); padding:40px;">
+              <div>
+                <span class="section-label">🎨 Creativity</span>
+                <h3 style="color:var(--dark); margin:15px 0;">Arts & Crafts Every Day</h3>
+                <p style="color:var(--gray); font-weight:600; line-height:1.8;">Our dedicated art sessions help children express themselves freely, develop fine motor skills, and build self-confidence through creative exploration.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="{% static 'main/images/kids_reading.png' %}" class="d-block w-100" alt="Reading" style="height:350px; object-fit:cover;">
+            </div>
+            <div class="col-md-6 d-flex align-items-center" style="background:linear-gradient(135deg,var(--blue-pale),var(--pink-pale)); padding:40px;">
+              <div>
+                <span class="section-label">📚 Literacy</span>
+                <h3 style="color:var(--dark); margin:15px 0;">Story Time is Magic Time</h3>
+                <p style="color:var(--gray); font-weight:600; line-height:1.8;">Daily story sessions in Swahili and English spark imagination, build vocabulary, and instil a lifelong love of books and learning in every child.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="{% static 'main/images/kids_outdoor_play.png' %}" class="d-block w-100" alt="Outdoor" style="height:350px; object-fit:cover;">
+            </div>
+            <div class="col-md-6 d-flex align-items-center" style="background:linear-gradient(135deg,#e8f5e9,var(--pink-pale)); padding:40px;">
+              <div>
+                <span class="section-label">🌿 Outdoors</span>
+                <h3 style="color:var(--dark); margin:15px 0;">Play Under the Mombasa Sun</h3>
+                <p style="color:var(--gray); font-weight:600; line-height:1.8;">Our secure outdoor playground offers daily exercise, nature exploration, and group games that build teamwork, strength, and adventurous spirits.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+        <span style="background:rgba(240,98,146,0.8); border-radius:50%; width:44px; height:44px; display:flex; align-items:center; justify-content:center;">
+          <i class="bi bi-chevron-left text-white fs-5"></i>
+        </span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+        <span style="background:rgba(240,98,146,0.8); border-radius:50%; width:44px; height:44px; display:flex; align-items:center; justify-content:center;">
+          <i class="bi bi-chevron-right text-white fs-5"></i>
+        </span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS ──────────────────────────────── -->
+<section class="testimonials-section" id="testimonials">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <span class="section-label">💬 Parent Voices</span>
+      <h2 class="section-title mt-2">What Our <span>Families Say</span></h2>
+      <p class="section-subtitle">Don't just take our word for it — hear from the families who love us most!</p>
+    </div>
+
+    <!-- Testimonial Carousel for Mobile -->
+    <div id="testimonialCarousel" class="carousel slide d-md-none" data-bs-ride="carousel" data-bs-interval="4500" data-aos="fade-up">
+      <div class="carousel-inner">
+        {% for t in testimonials %}
+        <div class="carousel-item {% if forloop.first %}active{% endif %}">
+          <div class="testimonial-card mx-2">
+            <div class="star-rating mb-2">
+              {% for i in "12345" %}⭐{% endfor %}
+            </div>
+            <div class="testimonial-avatar">{{ t.avatar }}</div>
+            <p class="testimonial-text">"{{ t.text }}"</p>
+            <h6 class="testimonial-name">{{ t.name }}</h6>
+            <p class="testimonial-location">📍 {{ t.location }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="d-flex justify-content-center gap-2 mt-3">
+        <button class="btn btn-sm" style="background:var(--pink-main); color:white; border-radius:50%; width:36px; height:36px;" data-bs-target="#testimonialCarousel" data-bs-slide="prev"><i class="bi bi-chevron-left"></i></button>
+        <button class="btn btn-sm" style="background:var(--pink-main); color:white; border-radius:50%; width:36px; height:36px;" data-bs-target="#testimonialCarousel" data-bs-slide="next"><i class="bi bi-chevron-right"></i></button>
+      </div>
+    </div>
+
+    <!-- Grid for Desktop -->
+    <div class="row g-4 d-none d-md-flex">
+      {% for t in testimonials %}
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="{{ forloop.counter0 }}00">
+        <div class="testimonial-card">
+          <div class="star-rating">
+            {% for i in "12345" %}⭐{% endfor %}
+          </div>
+          <div class="testimonial-avatar">{{ t.avatar }}</div>
+          <p class="testimonial-text">"{{ t.text }}"</p>
+          <h6 class="testimonial-name">{{ t.name }}</h6>
+          <p class="testimonial-location">📍 {{ t.location }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- Trust Badges -->
+    <div class="row g-3 mt-5" data-aos="fade-up">
+      <div class="col-12 text-center">
+        <p style="color:var(--gray); font-weight:700; margin-bottom:20px;">🏅 Trusted & Recognised By:</p>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+          <div style="background:white; border-radius:12px; padding:12px 24px; box-shadow:var(--shadow-sm); border:2px solid var(--pink-light); font-weight:700; color:var(--dark); font-size:0.88rem;">
+            🇰🇪 Kenya Ministry of Education
+          </div>
+          <div style="background:white; border-radius:12px; padding:12px 24px; box-shadow:var(--shadow-sm); border:2px solid var(--blue-light); font-weight:700; color:var(--dark); font-size:0.88rem;">
+            🏆 Best Daycare Mombasa 2023 & 2024
+          </div>
+          <div style="background:white; border-radius:12px; padding:12px 24px; box-shadow:var(--shadow-sm); border:2px solid var(--pink-light); font-weight:700; color:var(--dark); font-size:0.88rem;">
+            ⭐ 4.9/5 Google Reviews
+          </div>
+          <div style="background:white; border-radius:12px; padding:12px 24px; box-shadow:var(--shadow-sm); border:2px solid var(--blue-light); font-weight:700; color:var(--dark); font-size:0.88rem;">
+            🌍 NACECE Affiliated Centre
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ───────────────────────────────────────── -->
+<section class="cta-section">
+  <div class="container text-center position-relative" style="z-index:1;">
+    <div data-aos="fade-up">
+      <div class="section-label" style="background:rgba(255,255,255,0.3); color:white; border:2px solid rgba(255,255,255,0.5);">🎒 Join Our Family</div>
+      <h2 class="cta-title mt-3">Become Part of the <br>Sunshine Tots Community!</h2>
+      <p class="cta-text">Limited spaces available — secure your child's spot today and give them the best start in life.</p>
+      <div class="d-flex gap-3 justify-content-center flex-wrap">
+        <a href="/contact/" class="btn-cta-white">🌟 Enroll Now</a>
+        <a href="https://wa.me/254712345678?text=Hello!%20I%20read%20about%20Sunshine%20Tots%20and%20would%20like%20to%20book%20a%20tour." 
+           target="_blank" class="btn-whatsapp"><i class="fab fa-whatsapp"></i> Book a Tour via WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

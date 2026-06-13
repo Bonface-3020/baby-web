@@ -1,0 +1,73 @@
+# ── Python ────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual Environments ──────────────────────────
+venv/
+env/
+.env/
+.venv/
+ENV/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# ── Django ────────────────────────────────────────
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+mediafiles/
+media/
+
+# ── Environment Variables ─────────────────────────
+.env
+# Keep the example template in version control:
+!.env.example
+
+# ── Distribution / Build ──────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# ── Testing ───────────────────────────────────────
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+htmlcov/
+.pytest_cache/
+.cache/
+
+# ── Editor / OS ───────────────────────────────────
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Node (if any frontend tooling is added later) ─
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# ── Compiled static assets ────────────────────────
+*.min.js
+*.min.css
